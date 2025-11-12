@@ -1,0 +1,26 @@
+# --- Python & VS Code ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+*.sqlite3
+.DS_Store
+.vscode/
+
+# --- Virtual environments ---
+.venv/
+.venv*/
+venv/
+env/
+
+# --- LangChain / project artifacts ---
+faiss_index/
+contracts/
+contracts_pdf/
+*.log
+
+# --- OS / misc ---
+Thumbs.db
+*.bak
